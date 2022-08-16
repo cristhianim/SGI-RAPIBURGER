@@ -2,6 +2,10 @@
   --main-bg: rgb(238, 174, 202);
   --main-button: rgba(148, 187, 233, 1);
 }
+html{
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
 .main-bg{
   background-color: var(--main-bg) !important;
   background: linear-gradient(
