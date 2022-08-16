@@ -4,7 +4,6 @@
 }
 html{
   overflow-x: hidden;
-  overflow-y: hidden;
 }
 .main-bg{
   background-color: var(--main-bg) !important;
