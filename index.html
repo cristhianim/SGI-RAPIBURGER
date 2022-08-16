@@ -4,40 +4,73 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script src="/script.js"></script>
-    <link rel="stylesheet" href="style.css" />
-    <link rel="icon" href="/icons/11178407801659281604.svg">
-
-    <title>SGI | Rapi Burger</title>
+    <title>SGI | RAPI-BURGER</title>
+    <!--BOOSTRAP-->
+    <link
+      rel="shortcut icon"
+      href="/icons/25481-removebg.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="/css/bootstrap.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="/style/style.css" />
   </head>
-
   <body>
-    <div class="login-container">
-      <div class="login-info-container">
-        <h1 class="title">Iniciar sesión</h1>
-        <div class="social-login"></div>
+    <div class="container">
+      <div class="card">
+        <div class="card-body">
+          <div class="text-center" id="form">
+            <form action="">
+              <img
+                class="mt-3 rounded-5"
+                src="/images/9228-removebg-preview-removebg-preview.png"
+                alt="LOGO-INSTITUCION"
+                id="logo"
+              />
+              <h2 class="h2 mb-3 mt-3 fw-normal">INICIAR SESIÓN</h2>
 
-        <form class="inputs-container" id="input-container">
-          <input class="input" type="text" placeholder="Nombre de usuario" />
-
-          <input class="input" type="password" placeholder="Contraseña" />
-          <p>
-            Olvido su contraseña?
-            <span class="span"><a href="about:blank">Click aquí</a></span>
-          </p>
-          <button id="btn-iniciarSesion" class="btn" target="_blank">
-            <a id="click-iniciarSesion" href="/dashboard.html"
-              >Iniciar sesión</a>
-          </button>
-          <p>
-            ¿No tienes una cuenta?
-            <span class="span"><a href="about:blank">Solicita una</a> </span>
-          </p>
-          <br />
-          <p>© Instituto Superior Tecnológico 'Japón'</p>
-        </form>
+              <input
+                class="mt-2 rounded-3 form-control placeholder-glow"
+                type="text"
+                name="username"
+                id="usernamelabel"
+                placeholder="Usuario"
+                required
+                autofocus
+              />
+              <br />
+              <input
+                class="mt-0 rounded-3 form-control"
+                type="password"
+                name="password"
+                id="passwordlabel"
+                placeholder="Contraseña"
+                required
+              />
+              <div class="checkbox mt-2">
+                <label for="">
+                  <input type="checkbox" name="" id="" value="remember-me" />
+                  Mantener sesión
+                </label>
+              </div>
+              <div class="mt-3">
+                <button class="btn btn-primary">INICIAR SESIÓN</button>
+              </div>
+              <p class="mt-3">© Instituto Superior Tecnológico 'Japón'</p>
+            </form>
+          </div>
+        </div>
       </div>
-      <img class="image-container" src="images/login.svg" alt="" />
     </div>
   </body>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+    crossorigin="anonymous"
+  ></script>
 </html>
