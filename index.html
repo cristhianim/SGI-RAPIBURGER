@@ -20,52 +20,54 @@
     />
     <link rel="stylesheet" href="/style/style.css" />
   </head>
-  <body>
-    <div class="container">
-      <div class="card">
-        <div class="card-body">
-          <div class="text-center" id="form">
-            <form action="">
-              <img
-                class="mt-3 rounded-5"
-                src="/images/9228-removebg-preview-removebg-preview.png"
-                alt="LOGO-INSTITUCION"
-                id="logo"
-              />
-              <h2 class="h2 mb-3 mt-3 fw-normal">INICIAR SESIÓN</h2>
+  <body class="main-bg">
+    <div class="row justify-content-center mt-5">
+      <div class="col-lg-4 col-md-8 col-sm-8">
+        <div class="card rounded-5">
+          <div class="card-title text-center border-bottom">
+            <img
+              class="mt-3 rounded-5"
+              src="/images/9228-removebg-preview-removebg-preview.png"
+              alt="LOGO-INSTITUCION"
+              id="logo"
+            />
+            <div class="card-body">
+              <form action="">
+                <h2 class="h2 mb-3 mt-3 fw-normal">INICIAR SESIÓN</h2>
 
-              <input
-                class="mt-2 rounded-3 form-control placeholder-glow"
-                type="text"
-                name="username"
-                id="usernamelabel"
-                placeholder="Usuario"
-                required
-                autofocus
-              />
-              <br />
-              <input
-                class="mt-0 rounded-3 form-control"
-                type="password"
-                name="password"
-                id="password"
-                placeholder="Contraseña"
-                required
-              />
-              <p class="message mt-1"id="message"></p>
-              <input class="mt-1"type="checkbox" onclick="showPassword()" /> Mostrar
-              contraseña
-              <div class="checkbox mt-2">
-                <label for="">
-                  <input type="checkbox" name="" id="" value="remember-me" />
-                  Mantener sesión
-                </label>
-              </div>
-              <div class="mt-3">
-                <button class="btn btn-primary">INICIAR SESIÓN</button>
-              </div>
-              <p class="mt-3">© Instituto Superior Tecnológico 'Japón'</p>
-            </form>
+                <input
+                  class="mt-2 rounded-3 form-control placeholder-glow"
+                  type="text"
+                  name="username"
+                  id="usernamelabel"
+                  placeholder="Usuario"
+                  required
+                  autofocus
+                />
+                <br />
+                <input
+                  class="mt-0 rounded-3 form-control"
+                  type="password"
+                  name="password"
+                  id="password"
+                  placeholder="Contraseña"
+                  required
+                />
+                <p class="message mt-1" id="message"></p>
+                <input class="mt-1" type="checkbox" onclick="showPassword()" />
+                Mostrar contraseña
+                <div class="checkbox mt-2">
+                  <label for="">
+                    <input type="checkbox" name="" id="" value="remember-me" />
+                    Mantener sesión
+                  </label>
+                </div>
+                <div class="mt-3">
+                  <button class="btn main-button rounded-3">INICIAR SESIÓN</button>
+                </div>
+                <p class="mt-3">© Instituto Superior Tecnológico 'Japón'</p>
+              </form>
+            </div>
           </div>
         </div>
       </div>
@@ -76,7 +78,7 @@
     integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
     crossorigin="anonymous"
   ></script>
-    <!--FUNCION MOSTRAR PASSWORD-->
+  <!--FUNCION MOSTRAR PASSWORD-->
   <script src="/script/showPassword.js"></script>
   <script src="/script/script.js"></script>
 </html>
