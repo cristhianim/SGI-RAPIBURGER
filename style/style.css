@@ -2,7 +2,7 @@
   --main-bg: rgb(238, 174, 202);
   --main-button: rgba(148, 187, 233, 1);
 }
-html{
+html, body{
   overflow-x: hidden;
 }
 .main-bg{
